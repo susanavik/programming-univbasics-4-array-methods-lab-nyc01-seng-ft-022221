@@ -3,6 +3,11 @@ def using_include(array, element1)
   array.include?("element")
 end
 
+def using_include(array, element2)
+  array = ["element", "array"]
+  array.include?("hello")
+end
+
 def using_sort(array)
   array = ["I", "am", "wow"]
   array.sort
